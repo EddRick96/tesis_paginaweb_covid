@@ -1,0 +1,350 @@
+{
+  "1": {
+    "provincia": "AZUAY",
+    "cantones": {
+      "101": "CUENCA",
+      "102": "GIRÓN",
+      "103": "GUALACEO",
+      "104": "NABÓN",
+      "105": "PAUTE",
+      "106": "PUCARA",
+      "107": "SAN FERNANDO",
+      "108": "SANTA ISABEL",
+      "109": "SIGSIG",
+      "110": "OÑA",
+      "111": "CHORDELEG",
+      "112": "EL PAN",
+      "113": "SEVILLA DE ORO",
+      "114": "GUACHAPALA",
+      "115": "CAMILO PONCE ENRÍQUEZ"
+    }
+  },
+  "2": {
+    "provincia": "BOLIVAR",
+    "cantones": {
+      "201": "GUARANDA",
+      "202": "CHILLANES",
+      "203": "CHIMBO",
+      "204": "ECHEANDÍA",
+      "205": "SAN MIGUEL",
+      "206": "CALUMA",
+      "207": "LAS NAVES"
+    }
+  },
+  "3": {
+    "provincia": "CAÑAR",
+    "cantones": {
+      "301": "AZOGUES",
+      "302": "BIBLIÁN",
+      "303": "CAÑAR",
+      "304": "LA TRONCAL",
+      "305": "EL TAMBO",
+      "306": "DÉLEG",
+      "307": "SUSCAL"
+    }
+  },
+  "4": {
+    "provincia": "CARCHI",
+    "cantones": {
+      "401": "TULCÁN",
+      "402": "BOLÍVAR",
+      "403": "ESPEJO",
+      "404": "MIRA",
+      "405": "MONTÚFAR",
+      "406": "SAN PEDRO DE HUACA"
+    }
+  },
+  "5": {
+    "provincia": "COTOPAXI",
+    "cantones": {
+      "501": "LATACUNGA",
+      "502": "LA MANÁ",
+      "503": "PANGUA",
+      "504": "PUJILI",
+      "505": "SALCEDO",
+      "506": "SAQUISILÍ",
+      "507": "SIGCHOS"
+    }
+  },
+  "6": {
+    "provincia": "CHIMBORAZO",
+    "cantones": {
+      "601": "RIOBAMBA",
+      "602": "ALAUSI",
+      "603": "COLTA",
+      "604": "CHAMBO",
+      "605": "CHUNCHI",
+      "606": "GUAMOTE",
+      "607": "GUANO",
+      "608": "PALLATANGA",
+      "609": "PENIPE",
+      "610": "CUMANDÁ"
+    }
+  },
+  "7": {
+    "provincia": "EL ORO",
+    "cantones": {
+      "701": "MACHALA",
+      "702": "ARENILLAS",
+      "703": "ATAHUALPA",
+      "704": "BALSAS",
+      "705": "CHILLA",
+      "706": "EL GUABO",
+      "707": "HUAQUILLAS",
+      "708": "MARCABELÍ",
+      "709": "PASAJE",
+      "710": "PIÑAS",
+      "711": "PORTOVELO",
+      "712": "SANTA ROSA",
+      "713": "ZARUMA",
+      "714": "LAS LAJAS"
+    }
+  },
+  "8": {
+    "provincia": "ESMERALDAS",
+    "cantones": {
+      "801": "ESMERALDAS",
+      "802": "ELOY ALFARO",
+      "803": "MUISNE",
+      "804": "QUININDÉ",
+      "805": "SAN LORENZO",
+      "806": "ATACAMES",
+      "807": "RIOVERDE",
+      "808": "LA CONCORDIA"
+    }
+  },
+  "9": {
+    "provincia": "GUAYAS",
+    "cantones": {
+      "901": "GUAYAQUIL",
+      "902": "ALFREDO BAQUERIZO MORENO (JUJÁN)",
+      "903": "BALAO",
+      "904": "BALZAR",
+      "905": "COLIMES",
+      "906": "DAULE",
+      "907": "DURÁN",
+      "908": "EL EMPALME",
+      "909": "EL TRIUNFO",
+      "910": "MILAGRO",
+      "911": "NARANJAL",
+      "912": "NARANJITO",
+      "913": "PALESTINA",
+      "914": "PEDRO CARBO",
+      "916": "SAMBORONDÓN",
+      "918": "SANTA LUCÍA",
+      "919": "SALITRE (URBINA JADO)",
+      "920": "SAN JACINTO DE YAGUACHI",
+      "921": "PLAYAS",
+      "922": "SIMÓN BOLÍVAR",
+      "923": "CORONEL MARCELINO MARIDUEÑA",
+      "924": "LOMAS DE SARGENTILLO",
+      "925": "NOBOL",
+      "927": "GENERAL ANTONIO ELIZALDE",
+      "928": "ISIDRO AYORA"
+    }
+  },
+  "10": {
+    "provincia": "IMBABURA",
+    "cantones": {
+      "1001": "IBARRA",
+      "1002": "ANTONIO ANTE",
+      "1003": "COTACACHI",
+      "1004": "OTAVALO",
+      "1005": "PIMAMPIRO",
+      "1006": "SAN MIGUEL DE URCUQUÍ"
+    }
+  },
+  "11": {
+    "provincia": "LOJA",
+    "cantones": {
+      "1101": "LOJA",
+      "1102": "CALVAS",
+      "1103": "CATAMAYO",
+      "1104": "CELICA",
+      "1105": "CHAGUARPAMBA",
+      "1106": "ESPÍNDOLA",
+      "1107": "GONZANAMÁ",
+      "1108": "MACARÁ",
+      "1109": "PALTAS",
+      "1110": "PUYANGO",
+      "1111": "SARAGURO",
+      "1112": "SOZORANGA",
+      "1113": "ZAPOTILLO",
+      "1114": "PINDAL",
+      "1115": "QUILANGA",
+      "1116": "OLMEDO"
+    }
+  },
+  "12": {
+    "provincia": "LOS RIOS",
+    "cantones": {
+      "1201": "BABAHOYO",
+      "1202": "BABA",
+      "1203": "MONTALVO",
+      "1204": "PUEBLOVIEJO",
+      "1205": "QUEVEDO",
+      "1206": "URDANETA",
+      "1207": "VENTANAS",
+      "1208": "VÍNCES",
+      "1209": "PALENQUE",
+      "1210": "BUENA FÉ",
+      "1211": "VALENCIA",
+      "1212": "MOCACHE",
+      "1213": "QUINSALOMA"
+    }
+  },
+  "13": {
+    "provincia": "MANABI",
+    "cantones": {
+      "1301": "PORTOVIEJO",
+      "1302": "BOLÍVAR",
+      "1303": "CHONE",
+      "1304": "EL CARMEN",
+      "1305": "FLAVIO ALFARO",
+      "1306": "JIPIJAPA",
+      "1307": "JUNÍN",
+      "1308": "MANTA",
+      "1309": "MONTECRISTI",
+      "1310": "PAJÁN",
+      "1311": "PICHINCHA",
+      "1312": "ROCAFUERTE",
+      "1313": "SANTA ANA",
+      "1314": "SUCRE",
+      "1315": "TOSAGUA",
+      "1316": "24 DE MAYO",
+      "1317": "PEDERNALES",
+      "1318": "OLMEDO",
+      "1319": "PUERTO LÓPEZ",
+      "1320": "JAMA",
+      "1321": "JARAMIJÓ",
+      "1322": "SAN VICENTE"
+    }
+  },
+  "14": {
+    "provincia": "MORONA SANTIAGO",
+    "cantones": {
+      "1401": "MORONA",
+      "1402": "GUALAQUIZA",
+      "1403": "LIMÓN INDANZA",
+      "1404": "PALORA",
+      "1405": "SANTIAGO",
+      "1406": "SUCÚA",
+      "1407": "HUAMBOYA",
+      "1408": "SAN JUAN BOSCO",
+      "1409": "TAISHA",
+      "1410": "LOGROÑO",
+      "1411": "PABLO SEXTO",
+      "1412": "TIWINTZA"
+    }
+  },
+  "15": {
+    "provincia": "NAPO",
+    "cantones": {
+      "1501": "TENA",
+      "1503": "ARCHIDONA",
+      "1504": "EL CHACO",
+      "1507": "QUIJOS",
+      "1509": "CARLOS JULIO AROSEMENA TOLA"
+    }
+  },
+  "16": {
+    "provincia": "PASTAZA",
+    "cantones": {
+      "1601": "PASTAZA",
+      "1602": "MERA",
+      "1603": "SANTA CLARA",
+      "1604": "ARAJUNO"
+    }
+  },
+  "17": {
+    "provincia": "PICHINCHA",
+    "cantones": {
+      "1701": "QUITO",
+      "1702": "CAYAMBE",
+      "1703": "MEJIA",
+      "1704": "PEDRO MONCAYO",
+      "1705": "RUMIÑAHUI",
+      "1707": "SAN MIGUEL DE LOS BANCOS",
+      "1708": "PEDRO VICENTE MALDONADO",
+      "1709": "PUERTO QUITO"
+    }
+  },
+  "18": {
+    "provincia": "TUNGURAHUA",
+    "cantones": {
+      "1801": "AMBATO",
+      "1802": "BAÑOS DE AGUA SANTA",
+      "1803": "CEVALLOS",
+      "1804": "MOCHA",
+      "1805": "PATATE",
+      "1806": "QUERO",
+      "1807": "SAN PEDRO DE PELILEO",
+      "1808": "SANTIAGO DE PÍLLARO",
+      "1809": "TISALEO"
+    }
+  },
+  "19": {
+    "provincia": "ZAMORA CHINCHIPE",
+    "cantones": {
+      "1901": "ZAMORA",
+      "1902": "CHINCHIPE",
+      "1903": "NANGARITZA",
+      "1904": "YACUAMBI",
+      "1905": "YANTZAZA (YANZATZA)",
+      "1906": "EL PANGUI",
+      "1907": "CENTINELA DEL CÓNDOR",
+      "1908": "PALANDA",
+      "1909": "PAQUISHA"
+    }
+  },
+  "20": {
+    "provincia": "GALAPAGOS",
+    "cantones": {
+      "2001": "SAN CRISTÓBAL",
+      "2002": "ISABELA",
+      "2003": "SANTA CRUZ"
+    }
+  },
+  "21": {
+    "provincia": "SUCUMBIOS",
+    "cantones": {
+      "2101": "LAGO AGRIO",
+      "2102": "GONZALO PIZARRO",
+      "2103": "PUTUMAYO",
+      "2104": "SHUSHUFINDI",
+      "2105": "SUCUMBÍOS",
+      "2106": "CASCALES",
+      "2107": "CUYABENO"
+    }
+  },
+  "22": {
+    "provincia": "ORELLANA",
+    "cantones": {
+      "2201": "ORELLANA",
+      "2202": "AGUARICO",
+      "2203": "LA JOYA DE LOS SACHAS",
+      "2204": "LORETO"
+    }
+  },
+  "23": {
+    "provincia": "SANTO DOMINGO DE LOS TSACHILAS",
+    "cantones": {
+      "2301": "SANTO DOMINGO"
+    }
+  },
+  "24": {
+    "provincia": "SANTA ELENA",
+    "cantones": {
+      "2401": "SANTA ELENA",
+      "2402": "LA LIBERTAD",
+      "2403": "SALINAS"
+    }
+  },
+  "90": {
+    "cantones": {
+      "9001": "LAS GOLONDRINAS",
+      "9003": "MANGA DEL CURA",
+      "9004": "EL PIEDRERO"
+    }
+  }
+}

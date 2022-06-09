@@ -1,0 +1,58 @@
+:root {
+  --color-background: #fff;
+  --background-logo: rgba(255, 255, 255, 0.3);
+  --hover-menu-color: #1890ff;
+}
+
+.body-page {
+  height: 100vh;
+  max-height: auto;
+}
+
+.trigger {
+  padding: 25px 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  float: left;
+  height: 31px;
+}
+
+.trigger:hover {
+  color: var(--hover-menu-color);
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: var(--background-logo);
+}
+
+.site-layout .site-layout-background {
+  background: var(--color-background);
+}
+
+.site-layout .header {
+  padding: 0;
+}
+
+.site-layout .header > div {
+  height: auto;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.site-layout .site-layout-breadcrumb {
+  margin: 16px;
+}
+
+.site-layout .content {
+  margin: 0 16px;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.footer-page {
+  text-align: center;
+}

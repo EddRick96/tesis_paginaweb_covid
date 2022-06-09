@@ -1,0 +1,146 @@
+[
+ {
+  "key": "1",
+  "provincia": "Azuay",
+  "casos": 25374,
+  "muertes": 519
+ },
+ {
+  "key": "2",
+  "provincia": "Bolívar",
+  "casos": 6738,
+  "muertes": 111
+ },
+ {
+  "key": "3",
+  "provincia": "Cañar",
+  "casos": 6030,
+  "muertes": 137
+ },
+ {
+  "key": "4",
+  "provincia": "Carchi",
+  "casos": 8751,
+  "muertes": 284
+ },
+ {
+  "key": "5",
+  "provincia": "Chimborazo",
+  "casos": 8569,
+  "muertes": 530
+ },
+ {
+  "key": "6",
+  "provincia": "Cotopaxi",
+  "casos": 11572,
+  "muertes": 580
+ },
+ {
+  "key": "7",
+  "provincia": "El Oro",
+  "casos": 21830,
+  "muertes": 1099
+ },
+ {
+  "key": "8",
+  "provincia": "Esmeraldas",
+  "casos": 8946,
+  "muertes": 392
+ },
+ {
+  "key": "9",
+  "provincia": "Guayas",
+  "casos": 65886,
+  "muertes": 2757
+ },
+ {
+  "key": "10",
+  "provincia": "Imbabura",
+  "casos": 15329,
+  "muertes": 424
+ },
+ {
+  "key": "11",
+  "provincia": "Islas Galápagos",
+  "casos": 1469,
+  "muertes": 10
+ },
+ {
+  "key": "12",
+  "provincia": "Loja",
+  "casos": 17160,
+  "muertes": 567
+ },
+ {
+  "key": "13",
+  "provincia": "Los Ríos",
+  "casos": 12712,
+  "muertes": 493
+ },
+ {
+  "key": "14",
+  "provincia": "Manabí",
+  "casos": 32234,
+  "muertes": 2551
+ },
+ {
+  "key": "15",
+  "provincia": "Morona-Santiago",
+  "casos": 6146,
+  "muertes": 60
+ },
+ {
+  "key": "16",
+  "provincia": "Napo",
+  "casos": 3583,
+  "muertes": 109
+ },
+ {
+  "key": "17",
+  "provincia": "Orellana",
+  "casos": 3494,
+  "muertes": 96
+ },
+ {
+  "key": "18",
+  "provincia": "Pastaza",
+  "casos": 3319,
+  "muertes": 87
+ },
+ {
+  "key": "19",
+  "provincia": "Pichincha",
+  "casos": 166000,
+  "muertes": 3197
+ },
+ {
+  "key": "20",
+  "provincia": "Santa Elena",
+  "casos": 4418,
+  "muertes": 428
+ },
+ {
+  "key": "21",
+  "provincia": "Santo Domingo de los Tsáchilas",
+  "casos": 11684,
+  "muertes": 697
+ },
+ {
+  "key": "22",
+  "provincia": "Sucumbíos",
+  "casos": 5460,
+  "muertes": 173
+ },
+ {
+  "key": "23",
+  "provincia": "Tungurahua",
+  "casos": 14459,
+  "muertes": 619
+ },
+ {
+  "key": "24",
+  "provincia": "Zamora Chinchipe",
+  "casos": 2934,
+  "muertes": 100
+ }
+]
