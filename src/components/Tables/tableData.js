@@ -67,12 +67,14 @@ class TableData extends React.Component {
 
   render () {
     const numberProvince = this.props.numberProvince
+    console.log(this.props.region, 'region', numberProvince)
+    var regiones=localStorage.getItem('region');
+    console.log('regiones',regiones)
     // let data = covidData
       return (
         <>
           <h1>
-            Provincia: {provinceData[numberProvince].provincia} - 
-            {" "+numberProvince} 
+            Provincia: {regiones}
           </h1>
           <Table dataSource={this.data} columns={this.columns}/>
         </>

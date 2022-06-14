@@ -25,6 +25,13 @@ class SiderBar extends React.Component {
     };
 
     render() {
+        const closeDrawer = key => event => {
+            let region=key
+            this.setState({ open: false });
+            localStorage.setItem('region', region)
+          };
+        //ReactDOM.render(<TableData/>,nueva=closeDrawer)
+        
         return(
             <Layout className='body-page'>
                 <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
@@ -49,11 +56,11 @@ class SiderBar extends React.Component {
                             onClick: this.toggle,
                             })}
                         </div>
-                        <Menu theme="light" mode="horizontal">
-                            <Menu.Item key="1">Costa</Menu.Item>
-                            <Menu.Item key="2">Sierra</Menu.Item>
-                            <Menu.Item key="3">Oriente</Menu.Item>
-                            <Menu.Item key="4">Galápagos</Menu.Item>
+                        <Menu theme="light" mode="horizontal" value= { this.state.selectedItem } onChange={ this.menuClicked }>
+                            <Menu.Item key="1" onClick={closeDrawer("Costa")}>Costa</Menu.Item>
+                            <Menu.Item key="2" onClick={closeDrawer("Sierra")}>Sierra</Menu.Item>
+                            <Menu.Item key="3" onClick={closeDrawer("Oriente")}>Oriente</Menu.Item>
+                            <Menu.Item key="4" onClick={closeDrawer("Galápagos")}>Galápagos</Menu.Item>
                         </Menu>
                     </Header>
                     <Breadcrumb className='site-layout-breadcrumb'>
