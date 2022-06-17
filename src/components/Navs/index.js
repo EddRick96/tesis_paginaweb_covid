@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import { Layout, Menu, Breadcrumb } from 'antd';
 import {
   MenuUnfoldOutlined,
@@ -9,6 +10,7 @@ import {
 } from '@ant-design/icons';
 import RoutesApp from '../../Router';
 import { Link } from 'react-router-dom';
+import TableData from '../Tables/tableData';
 
 const { Header, Sider, Content, Footer } = Layout;
 
@@ -23,6 +25,7 @@ class SiderBar extends React.Component {
             collapsed: !this.state.collapsed,
         });
     };
+
 
     render() {
         const closeDrawer = key => event => {
@@ -60,7 +63,7 @@ class SiderBar extends React.Component {
                             <Menu.Item key="1" onClick={closeDrawer("Costa")}>Costa</Menu.Item>
                             <Menu.Item key="2" onClick={closeDrawer("Sierra")}>Sierra</Menu.Item>
                             <Menu.Item key="3" onClick={closeDrawer("Oriente")}>Oriente</Menu.Item>
-                            <Menu.Item key="4" onClick={closeDrawer("Galápagos")}>Galápagos</Menu.Item>
+                            <Menu.Item key="4" onClick={closeDrawer("Galapagos")}>Galápagos</Menu.Item>
                         </Menu>
                     </Header>
                     <Breadcrumb className='site-layout-breadcrumb'>

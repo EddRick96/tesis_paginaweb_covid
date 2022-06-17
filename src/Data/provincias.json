@@ -1,6 +1,7 @@
 {
   "1": {
     "provincia": "AZUAY",
+    "region":"Sierra",
     "cantones": {
       "101": "CUENCA",
       "102": "GIRÓN",
@@ -21,6 +22,7 @@
   },
   "2": {
     "provincia": "BOLIVAR",
+    "region":"Sierra",
     "cantones": {
       "201": "GUARANDA",
       "202": "CHILLANES",
@@ -33,6 +35,7 @@
   },
   "3": {
     "provincia": "CAÑAR",
+    "region":"Sierra",
     "cantones": {
       "301": "AZOGUES",
       "302": "BIBLIÁN",
@@ -45,6 +48,7 @@
   },
   "4": {
     "provincia": "CARCHI",
+    "region":"Sierra",
     "cantones": {
       "401": "TULCÁN",
       "402": "BOLÍVAR",
@@ -56,6 +60,7 @@
   },
   "5": {
     "provincia": "COTOPAXI",
+    "region":"Sierra",
     "cantones": {
       "501": "LATACUNGA",
       "502": "LA MANÁ",
@@ -68,6 +73,7 @@
   },
   "6": {
     "provincia": "CHIMBORAZO",
+    "region":"Sierra",
     "cantones": {
       "601": "RIOBAMBA",
       "602": "ALAUSI",
@@ -83,6 +89,7 @@
   },
   "7": {
     "provincia": "EL ORO",
+    "region":"Costa",
     "cantones": {
       "701": "MACHALA",
       "702": "ARENILLAS",
@@ -102,6 +109,7 @@
   },
   "8": {
     "provincia": "ESMERALDAS",
+    "region":"Costa",
     "cantones": {
       "801": "ESMERALDAS",
       "802": "ELOY ALFARO",
@@ -115,6 +123,7 @@
   },
   "9": {
     "provincia": "GUAYAS",
+    "region":"Costa",
     "cantones": {
       "901": "GUAYAQUIL",
       "902": "ALFREDO BAQUERIZO MORENO (JUJÁN)",
@@ -145,6 +154,7 @@
   },
   "10": {
     "provincia": "IMBABURA",
+    "region":"Sierra",
     "cantones": {
       "1001": "IBARRA",
       "1002": "ANTONIO ANTE",
@@ -156,6 +166,7 @@
   },
   "11": {
     "provincia": "LOJA",
+    "region":"Sierra",
     "cantones": {
       "1101": "LOJA",
       "1102": "CALVAS",
@@ -177,6 +188,7 @@
   },
   "12": {
     "provincia": "LOS RIOS",
+    "region":"Costa",
     "cantones": {
       "1201": "BABAHOYO",
       "1202": "BABA",
@@ -195,6 +207,7 @@
   },
   "13": {
     "provincia": "MANABI",
+    "region":"Costa",
     "cantones": {
       "1301": "PORTOVIEJO",
       "1302": "BOLÍVAR",
@@ -222,6 +235,7 @@
   },
   "14": {
     "provincia": "MORONA SANTIAGO",
+    "region":"Oriente",
     "cantones": {
       "1401": "MORONA",
       "1402": "GUALAQUIZA",
@@ -239,6 +253,7 @@
   },
   "15": {
     "provincia": "NAPO",
+    "region":"Oriente",
     "cantones": {
       "1501": "TENA",
       "1503": "ARCHIDONA",
@@ -249,6 +264,7 @@
   },
   "16": {
     "provincia": "PASTAZA",
+    "region":"Oriente",
     "cantones": {
       "1601": "PASTAZA",
       "1602": "MERA",
@@ -258,6 +274,7 @@
   },
   "17": {
     "provincia": "PICHINCHA",
+    "region":"Sierra",
     "cantones": {
       "1701": "QUITO",
       "1702": "CAYAMBE",
@@ -271,6 +288,7 @@
   },
   "18": {
     "provincia": "TUNGURAHUA",
+    "region":"Sierra",
     "cantones": {
       "1801": "AMBATO",
       "1802": "BAÑOS DE AGUA SANTA",
@@ -285,6 +303,7 @@
   },
   "19": {
     "provincia": "ZAMORA CHINCHIPE",
+    "region":"Oriente",
     "cantones": {
       "1901": "ZAMORA",
       "1902": "CHINCHIPE",
@@ -299,6 +318,7 @@
   },
   "20": {
     "provincia": "GALAPAGOS",
+    "region":"Galapagos",
     "cantones": {
       "2001": "SAN CRISTÓBAL",
       "2002": "ISABELA",
@@ -307,6 +327,7 @@
   },
   "21": {
     "provincia": "SUCUMBIOS",
+    "region":"Oriente",
     "cantones": {
       "2101": "LAGO AGRIO",
       "2102": "GONZALO PIZARRO",
@@ -319,6 +340,7 @@
   },
   "22": {
     "provincia": "ORELLANA",
+    "region":"Oriente",
     "cantones": {
       "2201": "ORELLANA",
       "2202": "AGUARICO",
@@ -328,12 +350,14 @@
   },
   "23": {
     "provincia": "SANTO DOMINGO DE LOS TSACHILAS",
+    "region":"Sierra",
     "cantones": {
       "2301": "SANTO DOMINGO"
     }
   },
   "24": {
     "provincia": "SANTA ELENA",
+    "region":"Costa",
     "cantones": {
       "2401": "SANTA ELENA",
       "2402": "LA LIBERTAD",
