@@ -1,7 +1,7 @@
 {
   "1": {
     "provincia": "AZUAY",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "101": "CUENCA",
       "102": "GIRÓN",
@@ -18,11 +18,13 @@
       "113": "SEVILLA DE ORO",
       "114": "GUACHAPALA",
       "115": "CAMILO PONCE ENRÍQUEZ"
-    }
+    },
+    "casos": 25374,
+    "muertes": 519
   },
   "2": {
     "provincia": "BOLIVAR",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "201": "GUARANDA",
       "202": "CHILLANES",
@@ -31,11 +33,13 @@
       "205": "SAN MIGUEL",
       "206": "CALUMA",
       "207": "LAS NAVES"
-    }
+    },
+    "casos": 6738,
+    "muertes": 111
   },
   "3": {
     "provincia": "CAÑAR",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "301": "AZOGUES",
       "302": "BIBLIÁN",
@@ -44,11 +48,13 @@
       "305": "EL TAMBO",
       "306": "DÉLEG",
       "307": "SUSCAL"
-    }
+    },
+    "casos": 6030,
+    "muertes": 137
   },
   "4": {
     "provincia": "CARCHI",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "401": "TULCÁN",
       "402": "BOLÍVAR",
@@ -56,11 +62,13 @@
       "404": "MIRA",
       "405": "MONTÚFAR",
       "406": "SAN PEDRO DE HUACA"
-    }
+    },
+    "casos": 8751,
+    "muertes": 284
   },
   "5": {
     "provincia": "COTOPAXI",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "501": "LATACUNGA",
       "502": "LA MANÁ",
@@ -69,11 +77,13 @@
       "505": "SALCEDO",
       "506": "SAQUISILÍ",
       "507": "SIGCHOS"
-    }
+    },
+    "casos": 11572,
+    "muertes": 580
   },
   "6": {
     "provincia": "CHIMBORAZO",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "601": "RIOBAMBA",
       "602": "ALAUSI",
@@ -85,11 +95,13 @@
       "608": "PALLATANGA",
       "609": "PENIPE",
       "610": "CUMANDÁ"
-    }
+    },
+    "casos": 8569,
+    "muertes": 530
   },
   "7": {
     "provincia": "EL ORO",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "701": "MACHALA",
       "702": "ARENILLAS",
@@ -105,11 +117,13 @@
       "712": "SANTA ROSA",
       "713": "ZARUMA",
       "714": "LAS LAJAS"
-    }
+    },
+    "casos": 21830,
+    "muertes": 1099
   },
   "8": {
     "provincia": "ESMERALDAS",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "801": "ESMERALDAS",
       "802": "ELOY ALFARO",
@@ -119,11 +133,13 @@
       "806": "ATACAMES",
       "807": "RIOVERDE",
       "808": "LA CONCORDIA"
-    }
+    },
+    "casos": 8946,
+    "muertes": 392
   },
   "9": {
     "provincia": "GUAYAS",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "901": "GUAYAQUIL",
       "902": "ALFREDO BAQUERIZO MORENO (JUJÁN)",
@@ -150,11 +166,13 @@
       "925": "NOBOL",
       "927": "GENERAL ANTONIO ELIZALDE",
       "928": "ISIDRO AYORA"
-    }
+    },
+    "casos": 65886,
+    "muertes": 2757
   },
   "10": {
     "provincia": "IMBABURA",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "1001": "IBARRA",
       "1002": "ANTONIO ANTE",
@@ -162,11 +180,13 @@
       "1004": "OTAVALO",
       "1005": "PIMAMPIRO",
       "1006": "SAN MIGUEL DE URCUQUÍ"
-    }
+    },
+    "casos": 15329,
+    "muertes": 424
   },
   "11": {
     "provincia": "LOJA",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "1101": "LOJA",
       "1102": "CALVAS",
@@ -184,11 +204,13 @@
       "1114": "PINDAL",
       "1115": "QUILANGA",
       "1116": "OLMEDO"
-    }
+    },
+    "casos": 17160,
+    "muertes": 567
   },
   "12": {
     "provincia": "LOS RIOS",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "1201": "BABAHOYO",
       "1202": "BABA",
@@ -203,11 +225,13 @@
       "1211": "VALENCIA",
       "1212": "MOCACHE",
       "1213": "QUINSALOMA"
-    }
+    },
+    "casos": 12712,
+    "muertes": 493
   },
   "13": {
     "provincia": "MANABI",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "1301": "PORTOVIEJO",
       "1302": "BOLÍVAR",
@@ -231,11 +255,13 @@
       "1320": "JAMA",
       "1321": "JARAMIJÓ",
       "1322": "SAN VICENTE"
-    }
+    },
+    "casos": 32234,
+    "muertes": 2551
   },
   "14": {
     "provincia": "MORONA SANTIAGO",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "1401": "MORONA",
       "1402": "GUALAQUIZA",
@@ -249,32 +275,38 @@
       "1410": "LOGROÑO",
       "1411": "PABLO SEXTO",
       "1412": "TIWINTZA"
-    }
+    },
+    "casos": 6146,
+    "muertes": 60
   },
   "15": {
     "provincia": "NAPO",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "1501": "TENA",
       "1503": "ARCHIDONA",
       "1504": "EL CHACO",
       "1507": "QUIJOS",
       "1509": "CARLOS JULIO AROSEMENA TOLA"
-    }
+    },
+    "casos": 3583,
+    "muertes": 109
   },
   "16": {
     "provincia": "PASTAZA",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "1601": "PASTAZA",
       "1602": "MERA",
       "1603": "SANTA CLARA",
       "1604": "ARAJUNO"
-    }
+    },
+    "casos": 3319,
+    "muertes": 87
   },
   "17": {
     "provincia": "PICHINCHA",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "1701": "QUITO",
       "1702": "CAYAMBE",
@@ -284,11 +316,13 @@
       "1707": "SAN MIGUEL DE LOS BANCOS",
       "1708": "PEDRO VICENTE MALDONADO",
       "1709": "PUERTO QUITO"
-    }
+    },
+    "casos": 166000,
+    "muertes": 3197
   },
   "18": {
     "provincia": "TUNGURAHUA",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "1801": "AMBATO",
       "1802": "BAÑOS DE AGUA SANTA",
@@ -299,11 +333,13 @@
       "1807": "SAN PEDRO DE PELILEO",
       "1808": "SANTIAGO DE PÍLLARO",
       "1809": "TISALEO"
-    }
+    },
+    "casos": 14459,
+    "muertes": 619
   },
   "19": {
     "provincia": "ZAMORA CHINCHIPE",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "1901": "ZAMORA",
       "1902": "CHINCHIPE",
@@ -314,20 +350,24 @@
       "1907": "CENTINELA DEL CÓNDOR",
       "1908": "PALANDA",
       "1909": "PAQUISHA"
-    }
+    },
+    "casos": 2934,
+    "muertes": 100
   },
   "20": {
     "provincia": "GALAPAGOS",
-    "region":"Galapagos",
+    "region": "Galapagos",
     "cantones": {
       "2001": "SAN CRISTÓBAL",
       "2002": "ISABELA",
       "2003": "SANTA CRUZ"
-    }
+    },
+    "casos": 1469,
+    "muertes": 10
   },
   "21": {
     "provincia": "SUCUMBIOS",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "2101": "LAGO AGRIO",
       "2102": "GONZALO PIZARRO",
@@ -336,33 +376,41 @@
       "2105": "SUCUMBÍOS",
       "2106": "CASCALES",
       "2107": "CUYABENO"
-    }
+    },
+    "casos": 5460,
+    "muertes": 173
   },
   "22": {
     "provincia": "ORELLANA",
-    "region":"Oriente",
+    "region": "Oriente",
     "cantones": {
       "2201": "ORELLANA",
       "2202": "AGUARICO",
       "2203": "LA JOYA DE LOS SACHAS",
       "2204": "LORETO"
-    }
+    },
+    "casos": 3494,
+    "muertes": 96
   },
   "23": {
     "provincia": "SANTO DOMINGO DE LOS TSACHILAS",
-    "region":"Sierra",
+    "region": "Sierra",
     "cantones": {
       "2301": "SANTO DOMINGO"
-    }
+    },
+    "casos": 11684,
+    "muertes": 697
   },
   "24": {
     "provincia": "SANTA ELENA",
-    "region":"Costa",
+    "region": "Costa",
     "cantones": {
       "2401": "SANTA ELENA",
       "2402": "LA LIBERTAD",
       "2403": "SALINAS"
-    }
+    },
+    "casos": 4418,
+    "muertes": 428
   },
   "90": {
     "cantones": {

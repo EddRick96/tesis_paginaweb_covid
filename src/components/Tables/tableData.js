@@ -1,18 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Table } from "antd";
 //Data
 import provinceData from "../../Data/provincias.json";
 import covidData from "../../Data/Datos Covid Ecuador 00.json";
-
-// function filterData(data){
-//     let newData = []
-//     var i = 1
-//     for( item in data ){
-//       newData[i] = item.provincia
-//       i++
-//     }
-//     return newData
-// }
+import { Input } from "antd";
+import { SearchOutlined } from "@ant-design/icons";
 
 class TableData extends React.Component {
   // constructor(props){
@@ -20,7 +12,7 @@ class TableData extends React.Component {
   // }
 
   data = covidData;
-  prov=provinceData;
+  prov = provinceData;
 
   // filterData(data);
 
@@ -29,23 +21,33 @@ class TableData extends React.Component {
       title: "Provincia",
       dataIndex: "provincia",
       key: "provincia",
-      filters: [
-        {
-          text: "Joe",
-          value: "Joe",
-        },
-        {
-          text: "Category 1",
-          value: "Category 1",
-        },
-        {
-          text: "Category 2",
-          value: "Category 2",
-        },
-      ],
+      filterDropdown: ({ setSelectedKeys, selectedKeys, confirm }) => {
+        return (
+          <Input
+            autoFocus
+            placeholder="Type text here"
+            value={selectedKeys[0]}
+            onChange={(e) => {
+              setSelectedKeys(e.target.value ? [e.target.value] : []);
+            }}
+            onPressEnter={() => {
+              confirm();
+            }}
+            onBlur={() => {
+              confirm();
+            }}
+          ></Input>
+        );
+      },
+      filterIcon: () => {
+        return <SearchOutlined></SearchOutlined>;
+      },
+      onFilter: (value, record) => {
+        return record.provincia.toLowerCase().includes(value.toLowerCase());
+      },
+
       filterMode: "tree",
       filterSearch: true,
-      onFilter: (value, record) => record.address.startsWith(value),
       width: "30%",
     },
     {
@@ -62,32 +64,18 @@ class TableData extends React.Component {
 
   componentDidMount() {
     var regiones = localStorage.getItem("region");
-    for (const i in provinceData) {
-      if(provinceData[i].region===regiones){
-       //console.log('entro', provinceData[i])
-       }
-     // console.log(provinceData[i].region);
-    }
-
   }
 
   render() {
-    const personasNoDuplicadas = []
+    const personasNoDuplicadas = [];
     var regiones = localStorage.getItem("region");
     for (const i in provinceData) {
-      if(provinceData[i].region===regiones){
-       
-       personasNoDuplicadas.push(provinceData[i].provincia)
-       console.log('entro', personasNoDuplicadas)
-       }
-     // console.log(provinceData[i].region);
+      if (provinceData[i].region === regiones) {
+        personasNoDuplicadas.push(provinceData[i]);
+        //console.log("entro", personasNoDuplicadas);
+      }
     }
     const numberProvince = this.props.numberProvince;
-    //console.log(this.props.region, 'region', numberProvince)
-
-    //console.log('regiones',regiones)
-   // console.log("data", this.prov);
-
     // const personasNoDuplicadas = [];
 
     // Vamos iterando por las personas
@@ -103,39 +91,33 @@ class TableData extends React.Component {
     // Este array será el que contenga las personas sin duplicados
     //console.log("Personas no duplicadas: ", personasNoDuplicadas);
     // let data = covidData
+
     return (
       <>
         <h1>Provincia: {regiones}</h1>
-        <div className="container mt-5" id="contenedor">
-            <table class="table">
+        {/* <div className="container mt-5" id="contenedor">
+          <table class="table">
             <thead>
-    <tr>
-    <th scope="col">id</th>
-      <th scope="col">nombre</th>
-      <th scope="col">imagen</th>
-      <th scope="col">stock</th>
-      <th scope="col">precio</th>
-      <th scope="col">descripcion</th>
-    </tr>
-  </thead>
-  <tbody>
-  
-            {
-    
-            personasNoDuplicadas.map((user, index) => {
-              return (
-                <tr>
-                  <td>{user}</td>
-                </tr>
-              );
-            })
-            
-            }
-          
-          </tbody>
-           </table>
-        </div>
-        {/* <Table dataSource={this.data} columns={this.columns} /> */}
+              <tr>
+                <th scope="col">Provincia</th>
+                <th scope="col">Casos</th>
+                <th scope="col">Muertes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {personasNoDuplicadas.map((user, index) => {
+                return (
+                  <tr>
+                    <td>{user.provincia}</td>
+                    <td>{user.casos}</td>
+                    <td>{user.muertes}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div> */}
+        <Table columns={this.columns} dataSource={personasNoDuplicadas} />
       </>
     );
   }
