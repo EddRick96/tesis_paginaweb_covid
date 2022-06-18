@@ -29,6 +29,7 @@ class TableData extends React.Component {
             value={selectedKeys[0]}
             onChange={(e) => {
               setSelectedKeys(e.target.value ? [e.target.value] : []);
+              confirm({closeDropdown:false})
             }}
             onPressEnter={() => {
               confirm();
