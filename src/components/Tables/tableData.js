@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import { Table } from "antd";
+import 'D:/Proyectos/Tesis_Erick/tesis_paginaweb_covid/src/styles/App.css';
 //Data
 import provinceData from "../../Data/provincias.json";
 import covidData from "../../Data/Datos Covid Ecuador 00.json";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
+
+// window.onbeforeunload = function() {
+//   localStorage.setItem('region', 'Costa')
+// };
 
 class TableData extends React.Component {
   // constructor(props){

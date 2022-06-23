@@ -56,3 +56,8 @@
 .footer-page {
   text-align: center;
 }
+.ant-dropdown-placement-bottomRight {
+  width: 145px !important;
+  left: 385px !important;
+  top: 185px !important;
+}
