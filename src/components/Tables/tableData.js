@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Table } from "antd";
-import 'D:/Proyectos/Tesis_Erick/tesis_paginaweb_covid/src/styles/App.css';
+// import 'D:/Proyectos/Tesis_Erick/tesis_paginaweb_covid/src/styles/App.css';
+import '../../styles/App.css'
 //Data
 import provinceData from "../../Data/provincias.json";
 import covidData from "../../Data/Datos Covid Ecuador 00.json";
@@ -60,11 +61,19 @@ class TableData extends React.Component {
       title: "Confirmados",
       dataIndex: "casos",
       key: "casos",
+      sorter: {
+        compare: (a, b) => a.casos - b.casos,
+        multiple: 2,
+      },
     },
     {
       title: "Fallecidos",
       dataIndex: "muertes",
       key: "muertes",
+      sorter: {
+        compare: (a, b) => a.muertes - b.muertes,
+        multiple: 3,
+      },
     },
   ];
 
