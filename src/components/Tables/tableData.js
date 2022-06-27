@@ -56,6 +56,7 @@ class TableData extends React.Component {
       filterMode: "tree",
       filterSearch: true,
       width: "30%",
+    //  showOnResponse: true,
     },
     {
       title: "Confirmados",
@@ -65,6 +66,8 @@ class TableData extends React.Component {
         compare: (a, b) => a.casos - b.casos,
         multiple: 2,
       },
+      width: "30%",
+    //  showOnResponse: true,
     },
     {
       title: "Fallecidos",
@@ -74,7 +77,10 @@ class TableData extends React.Component {
         compare: (a, b) => a.muertes - b.muertes,
         multiple: 3,
       },
+     // showOnResponse: true,
+      width: "30%",
     },
+    
   ];
 
   componentDidMount() {
@@ -132,7 +138,9 @@ class TableData extends React.Component {
             </tbody>
           </table>
         </div> */}
-        <Table columns={this.columns} dataSource={personasNoDuplicadas} />
+        <Table columns={this.columns} dataSource={personasNoDuplicadas} style={{
+
+  }}/>
       </>
     );
   }

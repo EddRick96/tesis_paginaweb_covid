@@ -57,7 +57,23 @@
   text-align: center;
 }
 .ant-dropdown-placement-bottomRight {
-  width: 145px !important;
-  left: 385px !important;
-  top: 185px !important;
+  width: 148px; 
+  left: 415px; 
+  top: 190px;
 }
+@media  (min-width: 400px) {
+  .ant-dropdown-placement-bottomRight {
+    width: 148px !important;
+    left: 214px !important;
+    top: 217px !important;
+   
+    
+  }
+}
+  /* @media  (min-width: 400px) {
+    .site-layout{
+      min-Width: "120%";
+    }
+
+} */
+
