@@ -7,6 +7,7 @@
 .body-page {
   height: 100vh;
   max-height: auto;
+  max-width: auto;
 }
 
 .trigger {
@@ -56,20 +57,26 @@
 .footer-page {
   text-align: center;
 }
-.ant-dropdown-placement-bottomRight {
-  width: 148px; 
-  left: 415px; 
-  top: 190px;
-}
-@media  (min-width: 400px) {
+
+/* 
+@media  (min-width: 1550px) {
   .ant-dropdown-placement-bottomRight {
-    width: 148px !important;
-    left: 214px !important;
-    top: 217px !important;
-   
-    
+    min-width: 20px !important;
+    width: 148px !important; 
+    left: 415px !important; 
+    top: 190px !important;
   }
 }
+@media  (max-width: 1550px) {
+  .ant-dropdown-placement-bottomRight {
+    min-width: 20px;
+    left: 392px;
+    top: 222px;
+    width: 148px;
+    
+  }
+} */
+
   /* @media  (min-width: 400px) {
     .site-layout{
       min-Width: "120%";
