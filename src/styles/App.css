@@ -58,8 +58,8 @@
   text-align: center;
 }
 
-/* 
-@media  (min-width: 1550px) {
+
+@media  (min-width: 1000px) {
   .ant-dropdown-placement-bottomRight {
     min-width: 20px !important;
     width: 148px !important; 
@@ -67,7 +67,7 @@
     top: 190px !important;
   }
 }
-@media  (max-width: 1550px) {
+@media  (max-width: 1000px) {
   .ant-dropdown-placement-bottomRight {
     min-width: 20px;
     left: 392px;
@@ -75,7 +75,7 @@
     width: 148px;
     
   }
-} */
+}
 
   /* @media  (min-width: 400px) {
     .site-layout{
